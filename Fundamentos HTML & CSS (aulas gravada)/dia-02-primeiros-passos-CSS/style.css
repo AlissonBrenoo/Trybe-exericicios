@@ -1,0 +1,27 @@
+        h3{
+            color:rgb(20, 69, 102);
+            font-size: 25px
+        }
+        body{
+            background-color: rgb(119, 61, 158);
+        font-family: monospace;
+        font-size: 15px;
+        text-align: center;
+
+
+        }
+        p{
+            line-height: 40px;
+            text-decoration: underlineg;
+            
+        }
+
+        #ultimoparagrafo{
+            background-color: darkkhaki;
+            font-style: italic;
+        }
+        .estiloparagrafo{
+            background-color: aqua;
+            font-weight: bold;
+        }
+    
