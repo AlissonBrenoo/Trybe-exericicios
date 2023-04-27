@@ -5,37 +5,37 @@
     left: 210px;
     z-index: 1;
     ;
-  }
-  
-  .goomba {
+}
+
+.goomba {
     position: absolute;
     width: 150px;
     top: 700px;
     left: 300px;
     z-index: 2;
-  }
-  
-  .baloon {
+}
+
+.baloon {
     position: absolute;
     width: 400px;
     left: 1000px;
     top: 450px;
     right: 500px;
     z-index: 3;
-  }
-  
-  .speach {
+}
+
+.speach {
     position: absolute;
     left: 1030px;
     top: 520px;
     font-size: 25px;
     z-index: 4;
-  }
-  
-  .bowser {
+}
+
+.bowser {
     position: absolute;
     width: 400px;
     top: 600px;
     left: 1400px;
     z-index: 5;
-  }
+}
