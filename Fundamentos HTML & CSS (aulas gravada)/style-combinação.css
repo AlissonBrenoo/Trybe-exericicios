@@ -35,6 +35,30 @@ li em {
     color: blue;
 }
 
-.java{
+.java :hover{
     background-color: pink;
+}
+
+.stack :hover{
+    color: rgb(23, 95, 190);
+}
+
+.w3 :hover{
+    color: greenyellow;
+}
+
+.dev :hover{
+    color: rgba(88, 88, 241, 0.897);
+}
+
+.docs :hover{
+    color: yellow;
+}
+
+.trybe :hover{
+    color: green
+}
+
+.site :hover{
+    font-weight: bold;
 }
