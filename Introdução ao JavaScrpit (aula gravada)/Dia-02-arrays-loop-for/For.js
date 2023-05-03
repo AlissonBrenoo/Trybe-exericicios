@@ -24,7 +24,7 @@ let numero = 4;
 //     console.log('Olá,' + nomes[indice]);
 // }
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia', 'Frango'];
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia', ''];
 
 for (let index = 0; index < groceryList.length; index+=1){
     console.log(groceryList[index]);
