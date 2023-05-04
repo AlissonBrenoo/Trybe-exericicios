@@ -7,23 +7,23 @@ console.log("Jogo do Chimba", studentGame);
 
 let megaSenaNumbers = [];
 for(let MegaSenaindex = 0; MegaSenaindex < 6; MegaSenaindex +=1){
-    let randomNumbers = Math.floor(Math.random()*60 + 1)
-    console.log(randomNumbers[MegaSenaindex]);
+    megaSenaNumbers[MegaSenaindex] = Math.floor(Math.random()*61)
+
 }
+console.log("Numeros sorteados",megaSenaNumbers);
 
 // Conferindo o jogo
+
 let numberOfHits = 0;
 for(let index = 0; index < megaSenaNumbers.length; index+=1){
     let drawNumbers = megaSenaNumbers[index];
-    // console.log("Numero sorteado",drawNumbers);
 
     for(let gameIndex = 0; gameIndex < studentGame.length; gameIndex+=1){
         let studentNumber = studentGame[gameIndex]
-        // console.log("Numero do CHimba", studentGame[gameIndex]);
 
-    if (drawNumbers === studentNumber){
-        console.log("Numero de acertos", drawNumbers)
-    }
-
+        if (drawNumbers === studentNumber){
+            numberOfHits +=1;
+        }
     }
 }
+console.log("Numero de acertos", numberOfHits)
