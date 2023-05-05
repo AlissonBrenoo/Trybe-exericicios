@@ -1,4 +1,4 @@
-let salarioBruto = 4000
+let salarioBruto = 10000
 let salarioDescontadoInss = 0
 let salarioLiquido = 0
 
@@ -9,7 +9,7 @@ if (salarioBruto <= 1556.94) {
 }else if(salarioBruto >= 2594.93 && salarioBruto <= 5189.82){
     salarioDescontadoInss = salarioBruto - (salarioBruto * 0.11)
 }else{
-    salarioDescontadoInss = salarioBruto - (salarioBruto * 570.88)
+    salarioDescontadoInss = salarioBruto - 570.88
 }
 
 console.log('Salario com desconto do INSS ' + salarioDescontadoInss);
