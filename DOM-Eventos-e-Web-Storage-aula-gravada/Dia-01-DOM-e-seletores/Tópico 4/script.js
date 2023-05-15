@@ -10,4 +10,4 @@ document.querySelector('.no-emergency-tasks').style.backgroundColor = 'Yellow';
 document.querySelectorAll('.no-emergency-tasks h3')[0].style.backgroundColor = 'Black';
 document.querySelectorAll('.no-emergency-tasks h3')[1].style.backgroundColor = 'Black';
 
-document.querySelector('#footer-container').style.backgroundColor = 'DarkGreen'
+document.querySelector('#footer-container').style.backgroundColor = 'DarkGreen';
